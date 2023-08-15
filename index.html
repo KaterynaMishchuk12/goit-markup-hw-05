@@ -440,12 +440,16 @@
             <label class="subscribe-label">Subsribe
             <input type="email" name="user_address" class="subscribe-input" placeholder="E-mail">
           </label>
-            <button type="submit" class="subscribe-btn">Subscribe</button>
+            <button type="submit" class="subscribe-btn">Subscribe
+              <svg class="telegram-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
           </form>
         </div>
-      </div>
-      
+      </div>      
     </footer>
+
     <!--modal window-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal-window">
@@ -453,18 +457,35 @@
         <form class="modal-window-form">
           <label class="callback-label">Name
           <input type="text" name="user_name" class="callback-input">
+          <svg class="callback-icon" width="18" height="18">
+            <use href="./images/icons.svg#icon-person-black"></use>
+          </svg>
         </label>
         <label class="callback-label">Phone
           <input type="tel" name="telephone" class="callback-input">
+          <svg class="callback-icon" width="18" height="24">
+            <use href="./images/icons.svg#icon-phone-black"></use>
+          </svg>
         </label>
         <label class="callback-label">Email
           <input type="email" name="email" class="callback-input">
+          <svg class="callback-icon" width="18" height="24">
+            <use href="./images/icons.svg#icon-email-black"></use>
+          </svg>
         </label>
 <label class="callback-label">Comment
   <textarea class="textarea" name="comment" rows="10" placeholder="Text input">
       </textarea>
 </label>
-        </form>
+<label>
+<input type="checkbox">
+<svg width="16" height="16" class="checkbox-icon">
+  <use href="./images/icons.svg#icon-Property-1Default"></use>
+</svg>
+I accept the terms and conditions of the <a class="privacy-policy-link" href="">Privacy Policy</a>
+</label>
+<button type="submit" class="send-button">Send</button>
+</form>
         <button type="button" class="close-button" data-modal-close>
           <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
