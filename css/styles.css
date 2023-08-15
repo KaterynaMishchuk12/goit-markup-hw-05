@@ -800,7 +800,7 @@ input::placeholder {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.callback-input:focus .callback-icon {
+.callback-input:focus + .callback-icon{
   fill: #4d5ae5;
 }
 
@@ -855,10 +855,10 @@ input::placeholder {
   justify-content: center;
   fill: transparent;
 }
-.checkbox-item:checked {
-  background-color: var(#404bbf);
+.checkbox-input:checked + .privacy-label>.checkbox-item {
+  background-color: var(--ocean);
   border: none;
-  fill: var(#f4f4fd);
+  fill: var(--cloud);
 }
 
 .send-button {
