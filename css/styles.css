@@ -636,13 +636,11 @@ ul {
 .subscribe-form {
   display: flex;
   gap: 24px;
-  margin-left: 80px;
-}
+  }
 
 .subscribe-label {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
 }
 .subscribe-input {
   background-color: transparent;
@@ -684,7 +682,6 @@ input::placeholder {
 
 .telegram-icon {
   fill: white;
-  margin-left: 16px;
 }
 
 .backdrop {
@@ -815,13 +812,13 @@ input::placeholder {
   width: 100%;
   height: 120px;
   padding: 8px 16px;
+  display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  margin-right: 24px;
   background-color: transparent;
   outline: transparent;
   resize: none;
