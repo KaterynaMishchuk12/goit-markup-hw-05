@@ -682,6 +682,7 @@ input::placeholder {
 
 .telegram-icon {
   fill: white;
+  margin-left: 16px;
 }
 
 .backdrop {
