@@ -675,7 +675,6 @@ input::placeholder {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  gap: 16px;
   min-width: 165px;
   height: 40px;
 }
